@@ -1,7 +1,6 @@
 public class Variable {
 
     public static void main(String[] args) {
-
         byte core = 4;
         short drivers = 3;
         int winDigits = 64;
