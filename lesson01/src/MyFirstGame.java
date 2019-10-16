@@ -6,13 +6,13 @@ public class MyFirstGame {
 
         while (answer != question) {
             if (answer > question) {
-                System.out.println("You answer too big");
+                System.out.println("you answer " + answer + " too big");
             } else {
-                System.out.println("You answer too small");
+                System.out.println("you answer " + answer + " too small");
             }
 
             // TO DO здесь должен быть ввод с клавиатуры
-            answer = 25;
+            answer++;
         }
 
         System.out.println("You win!");
