@@ -6,10 +6,10 @@ public class MyFirstGame {
 
         while (answer != question) {
             if (answer > question) {
-                System.out.println("you answer " + answer + " too big");
+                System.out.println("You answer " + answer + " too big");
                 answer--;
             } else {
-                System.out.println("you answer " + answer + " too small");
+                System.out.println("You answer " + answer + " too small");
                 answer++;
             }
 
