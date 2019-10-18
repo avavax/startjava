@@ -2,9 +2,10 @@ public class WolfTest {
 
     public static void main(String[] args) {
          Wolf wolf = new Wolf();
-         wolf.age = 5;
-         wolf.name = "Boris";
-         System.out.println(wolf.age);
+         System.out.println(wolf.getAge());
+         wolf.setAge(9);
+         wolf.setAge(3);
+         System.out.println(wolf.getAge());
          wolf.say();
     }
 }
