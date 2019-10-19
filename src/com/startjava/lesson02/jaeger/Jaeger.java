@@ -1,3 +1,5 @@
+package com.startjava.lesson02.jaeger;
+
 public class Jaeger {
 
     private String name;

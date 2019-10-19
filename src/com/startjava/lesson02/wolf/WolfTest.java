@@ -1,3 +1,5 @@
+package com.startjava.lesson02.wolf;
+
 public class WolfTest {
 
     public static void main(String[] args) {

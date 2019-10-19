@@ -1,3 +1,5 @@
+package com.startjava.lesson01.unicode;
+
 public class Unicode {
 
     public static void main (String[] args) {
