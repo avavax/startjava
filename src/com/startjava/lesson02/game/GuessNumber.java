@@ -10,12 +10,12 @@ public class GuessNumber {
     private int question;
     private int answer;
     private Scanner in;
-    private String gameSide;
+    //private String gameSide;
 
     public GuessNumber(Player playerOne, Player playerTwo) {
         this.playerOne = playerOne;
         this.playerTwo = playerTwo;
-        this.gameSide = "One";
+        //this.gameSide = "One";
         this.in = new Scanner(System.in);
     }
 
@@ -29,7 +29,7 @@ public class GuessNumber {
         while (answer != question) {
             if (answer > question) {
                 System.out.println("Введённое число больше задуманного.");
-            } else if (answer < question) {
+            } else {
                 System.out.println("Введённое число меньше задуманного.");
             }
             if (currentPlayer == playerOne) {
